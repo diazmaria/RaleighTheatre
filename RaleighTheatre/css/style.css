@@ -1,0 +1,14 @@
+.item{
+	width: 23%;
+	height: 220px;
+
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.item img{
+	width: 60%;
+	height: 60%;
+	margin:0 auto;
+}

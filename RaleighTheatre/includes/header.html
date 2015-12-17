@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Maria">
+	<link rel="shortcut icon" href= "./images/favicon.png">
+	<link rel="stylesheet" href="./css/bootstrap.css" >
+	<link rel="stylesheet" href="./css/style.css">
+    <title>Raleigh Theatre</title>
+</header>
+
+  <body>
+    <div class="container">
+		    <!-- Navigation Bar  -->
+           <nav class="navbar navbar-default">
+					<a href="index.php"><img  class="navbar-brand" src="./images/favicon.png"></a>
+					<a class="navbar-brand" href="index.php">HOME</a>
+					<ul class="nav navbar-nav">
+						 <form action="productions.php" method="POST">
+							<input class = "boton" type="submit" name="ClassicalMusic" value="CLASSICAL MUSIC">
+							<input class = "boton" type="submit" name="Drama" value="DRAMA">
+							<input class = "boton" type="submit" name="Musical" value="MUSICAL">
+							<input class = "boton" type="submit" name="Ballet" value="BALLET">
+							<input class = "boton" type="submit" name="Comedy" value="COMEDY">
+						 </form>
+					 </ul>
+					<a class="navbar-brand" id ="navbar-brand-shop"href="shoppingbasket.php">MY  BASKET</a>
+					<a href="shoppingbasket.php"><img  class="navbar-brand" src="./images/shopping_bag.png"></a>
+					
+					<div class="col-lg-6" style="padding-top:8px">
+					<a href="./login.php" style="color:white; font-size:15px"> ADMIN LOGIN </a>&nbsp;&nbsp;
+					</div>
+                   <div class="col-lg-6" style="text-align:right">
+						<form action="searcher.php" method="get">
+							<input  type="text" name="terms"  size="30px">
+							<input class="btn btn-default" type="submit" name="searcher" value="SEARCH PRODUCTION">
+						</form>
+					</div>        
+			</nav>
+			
+	
+			<a href="index.php"><div class="thumbnail" style="border:none"><img src="./images/logo.png"></div></a>
