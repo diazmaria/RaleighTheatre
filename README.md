@@ -35,6 +35,4 @@ Below there is an explanation of how to run the web app locally using WAMP or XA
 
 
 ### Demo
-<center>
-	![demo](http://i1030.photobucket.com/albums/y369/MariaPhotoB/RaleighTheatre_zpsc3jn81s4.gif)
-</center>
+![demo](https://thumbs.gfycat.com/UnevenFreeDunlin-size_restricted.gif)
